@@ -1,0 +1,147 @@
+.main {
+    width:1365px;
+    height: auto;
+    background-color: rgb(22, 107, 107);
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-heading {
+    font-size:70px;
+    font-weight: 700;
+    color: antiquewhite;
+    padding-top: 120px;
+    padding-left: 190px;
+    text-align: left;
+    text-decoration:underline;
+}
+
+.input {
+    font-size: 40px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content:left;
+    padding-top: 50px;
+    padding-left: 180px;
+}
+
+.button {
+    width: 200px;
+    height: auto;
+    background-color: aliceblue;
+    font-size: 25px;
+    color:rgb(68, 65, 65);
+    display: flex;
+    justify-content:center;
+    justify-self:left;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: right;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.list {
+     font-size: 20px;
+     margin-top:30px ;
+     margin-left: 180px;
+     list-style:inside;
+}
+
+.remove {
+    margin-left: 20px;
+    font-style: oblique;
+    font: 400;
+    text-decoration: underline;
+}
+
+.foot {
+    font-size: 30px;
+    margin-top:30px ;
+    margin-left: 240px;
+}
+
+@media only screen and(max-width:768px) {
+  .main {
+    width:700px;
+    height: auto;
+    background-color: rgb(22, 107, 107);
+    display: flex;
+    padding-bottom:30px;
+  }
+
+  .main-heading {
+    font-size: 40px;
+    font-weight: 500;
+    color: antiquewhite;
+    padding-top: 60px;
+    padding-left: 80px;
+    text-align: left;
+    text-decoration:underline;
+  }
+
+  .input {
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content:left;
+    padding-top:25px;
+    padding-left: 90px;
+  }
+
+  .button {
+    width: 100px;
+    height: auto;
+    background-color: aliceblue;
+    font-size: 15px;
+    color:rgb(68, 65, 65);
+    display: flex;
+    justify-content:center;
+    justify-self:left;
+    margin-top: 25px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: right;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.list {
+     font-size: 10px;
+     margin-top:15px ;
+     margin-left:90px;
+     list-style:inside;
+}
+
+.remove {
+    margin-left:10px;
+    font-style: oblique;
+    font: 200;
+    text-decoration: underline;
+}
+
+.foot {
+    font-size: 15px;
+    margin-top:15px ;
+    margin-left: 120px;
+}
+}

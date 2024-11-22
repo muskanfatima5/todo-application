@@ -5,7 +5,7 @@ import Image from "next/image"
 function Page(){
 
       return(
-        <div className="main">
+        <div className="main h-full">
           <div className="content">
           <div className="main-heading">
             <h1>My To-Do-List</h1>
